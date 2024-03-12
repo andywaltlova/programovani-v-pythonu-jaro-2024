@@ -7,7 +7,7 @@
 - 📝**Splnění kvízu z každé lekce na ~70 %**, kvíz musí být odevzdaný před začátkem další lekce (u posledního kvízu do následující středy). Kvíz slouží k zopakování si učiva z minulé lekce, doporučujeme si jej tedy udělat jako osvěžení si již probrané látky před následující hodinou. Kvíz není časově omezený, můžete používat materiály a zkoušet příklady před odevzdáním.
   - Kvíz bude zveřejněn po každé lekci na platformě https://open.openclass.ai/ (Pozvánka do naší třídy byla zveřejněna na slacku) 
 - 📚**Odevzdání dvou domácích úkolů, budou zadané po 6. a 9. lekci**, úkol musí být odevzdaný do 2 týdnů.
-- 🧑‍🤝‍🧑 **Účast na min. 9 z 12 lekcí**.
+- 🧑‍🤝‍🧑 **Účast na min. 10 z 12 lekcí**.
 
 | Lekce | Datum      | Lektor | Obsah lekce                                    | Odkaz na materiály |
 |-------|------------| -------|-----------------------------------------------| ------------------ |
