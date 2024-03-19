@@ -4,10 +4,27 @@
 # Napište program, který dostane na vstupu desetinné číslo a na výstup napíše
 # toto číslo zaokrouhlené nejdříve nahoru, potom dolů a potom běžným Pythonovským zaokrouhlováním.
 
-# TODO
+import math
+
+number = float(input('Napiště libovolné desetinné číslo:\n'))
+
+nahoru = math.ceil(number)
+dolu = math.floor(number)
+pythonovsky = round(number)
+
+print(f'zaokrouhleno nahoru: {nahoru}\nzaokrouhleno dolů: {dolu}\nzaokrouhleno pythonovsky: {pythonovsky}')
 
 # [BONUS] 2.Přijímačky a moduly
 # Uvažujme vysvědčení studenta, které máme uložené jako seznam.
+# Uvažuj, že student se hlásí na školu, která vybírá studenty podle průměru.
+# Pro školu jsou ale důležité pouze předměty český jazyk, anglický jazyk, matematika a fyzika.
+# Vypočítej průměr studenta z daných předmětů s využitím modulu statistics.
+# Na začátku vytvoř prázdný seznam a následně pomocí cyklu vlož do nového seznamu
+# známky ze čtyř vyjmenovaných předmětů. Nakonec použij metodu statistics.mean() k výpočtu průměru.
+# Dále zkus využít funkce, které jsou zmíněné v textu, k výpočtu nejlepší a nejhorší známky z daných předmětů.
+
+# varianta A
+import statistics
 
 school_report = [
     ["Český jazyk", 1],
@@ -21,14 +38,28 @@ school_report = [
     ["Tělesná výchova", 3],
     ["Chemie", 4],
 ]
-# Uvažuj, že student se hlásí na školu, která vybírá studenty podle průměru.
-# Pro školu jsou ale důležité pouze předměty český jazyk, anglický jazyk, matematika a fyzika.
-# Vypočítej průměr studenta z daných předmětů s využitím modulu statistics.
-# Na začátku vytvoř prázdný seznam a následně pomocí cyklu vlož do nového seznamu
-# známky ze čtyř vyjmenovaných předmětů. Nakonec použij metodu statistics.mean() k výpočtu průměru.
-# Dále zkus využít funkce, které jsou zmíněné v textu, k výpočtu nejlepší a nejhorší známky z daných předmětů.
 
-# TODO
+vybrane_znamky = []
+
+for predmet_znamka in school_report:
+    predmet = predmet_znamka[0]
+    znamka = predmet_znamka[1]
+    if predmet in ('Český jazyk', 'Anglický jazyk', 'Matematika', 'Fyzika'):
+        vybrane_znamky.append(znamka)
+
+print(f'Průměr studenta je: {statistics.mean(vybrane_znamky)}, nejlepší známka je {min(vybrane_znamky)}, nejhorší známka je {max(vybrane_znamky)}.')
+
+
+# varianta B
+
+import statistics
+vybrane_predmety = []
+
+for predmet, znamka in school_report:
+    if predmet in ('Český jazyk', 'Anglický jazyk', 'Matematika', 'Fyzika'):
+        vybrane_predmety.append(znamka)
+
+print(f'Průměr studenta je: {statistics.mean(vybrane_predmety)}, nejlepší známka je {min(vybrane_predmety)}, nejhorší známka je {max(vybrane_predmety)}.')
 
 # [BONUS] 3. Vánoční party
 # Ve statistice existuje ukazatel zvaný modus, který vrátí nejčastější hodnotu v datech.
@@ -54,4 +85,6 @@ votes = [
 # Můžeš se podívat i na popis funkce v dokumentaci (https://docs.python.org/3/library/statistics.html#statistics.mode),
 # která obsahuje i příklad s použitím řetězců.
 
-# TODO
+import statistics
+
+print(statistics.mode(votes))
