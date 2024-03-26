@@ -13,7 +13,7 @@
 |-------|------------| -------|-----------------------------------------------| ------------------ |
 | 01    | 2024-03-12 | Andy   | Úvod, slicing, metody                 | [odkaz](https://kodim.cz/programovani/uvod-do-progr-2/uvod-do-programovani-2/slicing-metody-moduly/slicing) |
 | 02    | 2024-03-19 | Andy   | Moduly, Funkce, assert    | [funkce](https://kodim.cz/programovani/uvod-do-progr-2/uvod-do-programovani-2/vlastni-funkce/funkce) |
-| 03    | 2024-03-26 | Andy   | Slovníky úvod + cykly, GitHub, coding style    | [slovníky](https://kodim.cz/programovani/uvod-do-progr-2/uvod-do-programovani-2/slovniky/slovniky), [slovníky a cykly](https://kodim.cz/czechitas/uvod-do-progr-2/uvod-do-programovani-2/slovniky/slovniky-a-cykly) |
+| 03    | 2024-03-26 | Andy   | Slovníky úvod + cykly    | [slovníky](https://kodim.cz/programovani/uvod-do-progr-2/uvod-do-programovani-2/slovniky/slovniky), [slovníky a cykly](https://kodim.cz/czechitas/uvod-do-progr-2/uvod-do-programovani-2/slovniky/slovniky-a-cykly) |
 | 04    | 2024-04-02 | Andy   | Objektově orientované programování - úvod      | [odkaz](https://kodim.cz/programovani/python-oop/lekce) |
 | 05    | 2024-04-09 | Andy   | Objektově orientované programování - dědičnost | [odkaz](https://kodim.cz/czechitas/python-oop/lekce/dedicnost/dedicnost) |
 | 06    | 2024-04-16 | Andy   | Objektově orientované programování - datové třídy a funkce s objekty  | [odkaz](https://kodim.cz/czechitas/python-oop/lekce/dedicnost/datove-tridy) |
