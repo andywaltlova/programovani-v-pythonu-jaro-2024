@@ -116,7 +116,7 @@ import math
 ingredience = recept['ingredience']
 soucet = 0
 for polozka in ingredience:
-    cena_str = ingredience[-1]
+    cena_str = polozka[-1]
     # Tady by teoreticky sla pouzit i split a vzit jen prvni prvek pred mezerou
     cena_cislo = int(cena_str.replace(' kč',''))
     soucet += cena_cislo
