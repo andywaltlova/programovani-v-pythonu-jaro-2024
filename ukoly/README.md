@@ -7,7 +7,7 @@
 
   Jdi na <https://github.com/signup> a založ si nový účet.
 
-  ![Zalozeni uctu](./docs/0-zalozeni-uctu.png)
+  ![Zalozeni uctu](./images/0-zalozeni-uctu.png)
 </details>
 
 <details>
