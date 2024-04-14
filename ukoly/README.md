@@ -17,7 +17,7 @@
 
   Jedním způsobem jak založti repozitář je vytvořit si novou složku pro úkoly na svém počítači, otevřít si ji ve Visual Studiu Code, přihlásit se do svého účtu na GitHubu a poté složku zveřejnit jako nový repozitář
 
-  **Video níže není natočená na operačním systému Windows, proto třeba založení složky nemusí vypada přesně jako u tebe**
+  **Video níže není natočené na operačním systému Windows, proto třeba založení složky nemusí vypada přesně jako u tebe**
 
   [![Zalozeni repozitare](https://img.youtube.com/vi/U-f__GG1rSU/0.jpg)](https://youtu.be/U-f__GG1rSU)
 
@@ -32,7 +32,7 @@
 
   Otevře se okno, do kterého zadej e-mail nebo přihlašovací jmého konkrétního kouče nebo koučky.
 
-  **Video níže není natočená na operačním systému Windows, proto třeba založení složky nemusí vypada přesně jako u tebe**
+  **Video níže není natočené na operačním systému Windows, proto třeba založení složky nemusí vypada přesně jako u tebe**
 
   [![Pridani kouce](https://img.youtube.com/vi/KOlsGyRjFi0/0.jpg)](https://youtu.be/KOlsGyRjFi0)
 
@@ -49,7 +49,7 @@
 
   Poté můžeš kliknout `Sync Changes`, alternativně (např. pokud vidíš nějakou chybovou zprávu) můžeš kliknout na ikonu tří teček a poté vyber možnost `Push`.
 
-  **Video níže není natočená na operačním systému Windows, proto třeba založení složky nemusí vypada přesně jako u tebe**
+  **Video níže není natočené na operačním systému Windows, proto třeba založení složky nemusí vypada přesně jako u tebe**
 
   [![Nahrani souboru](https://img.youtube.com/vi/lFEvPr-LBd8/0.jpg)](https://youtu.be/lFEvPr-LBd8)
 
@@ -60,7 +60,7 @@
 
   Poté vytvoř nové Issue ve svém repozitáři. Do názvu zadej název úkolu a v textu napiš přezdívku tvého kouče/koučky se zavináčem. Tím zajistíš, že kouč/koučka bude informován o založení issue e-mailem. Dále můžeš využít možnost `Assignees` a vybrat svého kouče/koučku. Pokud svého kouče/koučku nevidíš, je potřeba jej přidat do repozitáře, viz postup v podkapitole **Přidání kouče/koučky do repozitáře**.
 
-  **Video níže není natočená na operačním systému Windows, proto třeba založení složky nemusí vypada přesně jako u tebe**
+  **Video níže není natočené na operačním systému Windows, proto třeba založení složky nemusí vypada přesně jako u tebe**
 
   [![Vytvoreni issue](https://img.youtube.com/vi/vXSjyElWX5I/0.jpg)](https://youtu.be/vXSjyElWX5I)
 
