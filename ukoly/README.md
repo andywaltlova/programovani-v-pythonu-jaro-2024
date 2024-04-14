@@ -20,6 +20,7 @@
   **Video níže není natočená na operačním systému Windows, proto třeba založení složky nemusí vypada přesně jako u tebe**
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/U-f__GG1rSU?si=GeHlBjSYeRAY2yqP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</details>
 
 <details>
   <summary>3. Přidání kouče/koučky do repozitáře</summary>
@@ -33,7 +34,6 @@
   **Video níže není natočená na operačním systému Windows, proto třeba založení složky nemusí vypada přesně jako u tebe**
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/KOlsGyRjFi0?si=W3gTfqmzZtXMXIAl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 </details>
 
 <details>
@@ -50,6 +50,7 @@
   **Video níže není natočená na operačním systému Windows, proto třeba založení složky nemusí vypada přesně jako u tebe**
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/lFEvPr-LBd8?si=e4PoqKXIm8TqwRIL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</details>
 
 <details>
   <summary>5. Vytvoření issue</summary>
@@ -59,3 +60,4 @@
   **Video níže není natočená na operačním systému Windows, proto třeba založení složky nemusí vypada přesně jako u tebe**
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/vXSjyElWX5I?si=3zbBRXndILDxKP4g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</details>
