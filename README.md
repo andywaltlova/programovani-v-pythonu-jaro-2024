@@ -15,8 +15,8 @@
 | 02    | 2024-03-19 | Andy   | Moduly, Funkce, assert    | [funkce](https://kodim.cz/programovani/uvod-do-progr-2/uvod-do-programovani-2/vlastni-funkce/funkce) |
 | 03    | 2024-03-26 | Andy   | Slovníky úvod + cykly    | [slovníky](https://kodim.cz/programovani/uvod-do-progr-2/uvod-do-programovani-2/slovniky/slovniky), [slovníky a cykly](https://kodim.cz/czechitas/uvod-do-progr-2/uvod-do-programovani-2/slovniky/slovniky-a-cykly) |
 | 04    | 2024-04-02 | Andy   | Objektově orientované programování - úvod      | [odkaz](https://kodim.cz/programovani/python-oop/lekce) |
-| 05    | 2024-04-09 | Andy   | Objektově orientované programování - dědičnost | [odkaz](https://kodim.cz/czechitas/python-oop/lekce/dedicnost/dedicnost) |
-| 06    | 2024-04-16 | Andy   | Objektově orientované programování - datové třídy a funkce s objekty  | [odkaz](https://kodim.cz/czechitas/python-oop/lekce/dedicnost/datove-tridy) |
+| 05    | 2024-04-09 | Andy   | Objektově orientované programování - dědičnost, datové třídy | [odkaz](https://kodim.cz/czechitas/python-oop/lekce/dedicnost/dedicnost) |
+| 06    | 2024-04-16 | Andy   | Objektově orientované programování - funkce s objekty + GitHub  | [odkaz](https://kodim.cz/czechitas/python-oop/lekce/dedicnost/datove-tridy) |
 | 07    | 2024-04-23 | Martin | Datum a čas, instalace balíčků pomocí pip      | [datum a čas](https://kodim.cz/analyza-dat/python-data-1/bonusy/datum/datum), [instalace balíčků](https://kodim.cz/programovani/uvod-do-progr-2/bonusy/balicky-z-internetu/lesson) | |
 | 08    | 2024-04-30 | Martin | Čtení a zápis textových souborů                | [odkaz](https://kodim.cz/programovani/uvod-do-progr-2/uvod-do-programovani-2/soubory/cteni-souboru) |
 | 09    | 2024-05-07 | Martin | JSON a API                                     | [odkaz](https://kodim.cz/programovani/uvod-do-progr-2/uvod-do-programovani-2/json/format-json) |
