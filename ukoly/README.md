@@ -19,9 +19,7 @@
 
   **Video níže není natočená na operačním systému Windows, proto třeba založení složky nemusí vypada přesně jako u tebe**
 
-  <div>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/U-f__GG1rSU?si=GeHlBjSYeRAY2yqP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  </div>
+  [![Zalozeni repozitare](https://img.youtube.com/vi/U-f__GG1rSU/0.jpg)](https://youtu.be/U-f__GG1rSU)
 
 </details>
 
@@ -36,9 +34,7 @@
 
   **Video níže není natočená na operačním systému Windows, proto třeba založení složky nemusí vypada přesně jako u tebe**
 
-  <div>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/KOlsGyRjFi0?si=W3gTfqmzZtXMXIAl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  </div>
+  [![Pridani kouce](https://img.youtube.com/vi/KOlsGyRjFi0/0.jpg)](https://youtu.be/KOlsGyRjFi0)
 
 </details>
 
@@ -55,9 +51,7 @@
 
   **Video níže není natočená na operačním systému Windows, proto třeba založení složky nemusí vypada přesně jako u tebe**
 
-  <div>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/lFEvPr-LBd8?si=e4PoqKXIm8TqwRIL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  </div>
+  [![Nahrani souboru](https://img.youtube.com/vi/lFEvPr-LBd8/0.jpg)](https://youtu.be/lFEvPr-LBd8)
 
 </details>
 
@@ -68,8 +62,6 @@
 
   **Video níže není natočená na operačním systému Windows, proto třeba založení složky nemusí vypada přesně jako u tebe**
 
-  <div>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/vXSjyElWX5I?si=3zbBRXndILDxKP4g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  </div>
+  [![Vytvoreni issue](https://img.youtube.com/vi/vXSjyElWX5I/0.jpg)](https://youtu.be/vXSjyElWX5I)
 
 </details>
