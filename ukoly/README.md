@@ -1,6 +1,7 @@
 # Návod k odevzdávání úkolů
 
 ## Podrobně krok za krokem
+
 <details>
   <summary>1. Založení účtu na Githubu (bylo v požadavcích kurzu, pokud nemáš, založ si teď)</summary>
 
@@ -18,8 +19,7 @@
 
   **Video níže není natočená na operačním systému Windows, proto třeba založení složky nemusí vypada přesně jako u tebe**
 
-  ![Zalozeni repozitare](./docs/1-zalozeni-repozitare.mp4)
-</details>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/U-f__GG1rSU?si=GeHlBjSYeRAY2yqP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <details>
   <summary>3. Přidání kouče/koučky do repozitáře</summary>
@@ -32,7 +32,7 @@
 
   **Video níže není natočená na operačním systému Windows, proto třeba založení složky nemusí vypada přesně jako u tebe**
 
-  ![Pridani kouce](./docs/2-pridani-kouce.mp4)
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/KOlsGyRjFi0?si=W3gTfqmzZtXMXIAl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 </details>
 
@@ -49,8 +49,7 @@
 
   **Video níže není natočená na operačním systému Windows, proto třeba založení složky nemusí vypada přesně jako u tebe**
 
-  ![Pridani souboru](./docs/3-pridani-souboru.mp4)
-</details>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/lFEvPr-LBd8?si=e4PoqKXIm8TqwRIL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <details>
   <summary>5. Vytvoření issue</summary>
@@ -59,5 +58,4 @@
 
   **Video níže není natočená na operačním systému Windows, proto třeba založení složky nemusí vypada přesně jako u tebe**
 
-  ![Pridani souboru](./docs/4-vytvoreni-issue.mp4)
-</details>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/vXSjyElWX5I?si=3zbBRXndILDxKP4g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
