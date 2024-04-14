@@ -19,7 +19,7 @@ assert pavouk_export['druh'] == 'Tarantule Velká'
 assert pavouk_export['vaha'] == 0.1
 ```
 
-Vytvoř objekty typu `Zvire` z následujícího seznamu slovníků (použij for cyklus):
+Vytvoř objekty typu `Zvire` z následujícího seznamu slovníků. Použij for cyklus, můžeš (ale nemusíš) to napsat jako funkci. Výsledkem bude list obsahující 4 objekty typu `Zvire`.
 
 ```py
 zvirata_dict = [
@@ -40,7 +40,7 @@ Zaměstnanci dále přidej:
 * metodu `__str__()`, formát výpisu je na tobě
 * metodu `ziskej_inicialy()`, která bude vracet výstup ve formátu `A.W.`, uvažuj pouze změstnance se dvěma jmény.
 
-Vytvoř objekty typu `Zamestnanec` z následujícího seznamu slovníků (použij for cyklus):
+Vytvoř objekty typu `Zamestnanec` z následujícího seznamu slovníků. Použij for cyklus, můžeš (ale nemusíš) to napsat jako funkci. Výsledkem bude list obsahující 3 objekty typu `Zamestnanec`.
 
 ```py
 zamestnanci_dict = [
