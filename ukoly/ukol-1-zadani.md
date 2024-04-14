@@ -2,7 +2,7 @@
 
 Tvým úkolem bude vytvořit 4 třídy, které budou dohromady tvořit zoologickou zahradu. Doporučovala bych postupovat v pořadí ve kterém jsou třídy napsaný níže, bude to dávat největší smysl. Dodrzuj správnou strukturu souboru, tedy definice tříd děj nahoru pod sebe, samotné vytváření objektu a případné asserty na konec. Typování je dobrovolné.
 
-## Třída `Zvire`
+## Třída `Zvire` 🦁 🐼 🐍
 
 Tato třída bude obsahovat atributy `jmeno:str`, `druh:str` a `vaha:int`. Všechny parametry jsou povinné a budou se nastavovat v metodě `__init__()`
 
@@ -31,7 +31,7 @@ zvirata_dict = [
 ]
 ```
 
-## Třída `Zamestnanec`
+## Třída `Zamestnanec` 🧑‍🤝‍🧑
 
 Tato třída bude obsahovat atributy `cele_jmeno:str`, `rocni_plat:int` a `pozice:str`. Všechny parametry jsou povinné a budou se nastavovat v metodě `__init__()`
 
@@ -50,7 +50,7 @@ zamestnanci_dict = [
 ]
 ```
 
-## Třída `Reditel`
+## Třída `Reditel` 🧑‍💼
 
 Tato třída bude dědit od třídy `Zamestnanec`, jediné co bude mít navíc je parametr `oblibene_zvire: Zvire`, parametr bude typu `Zvire` (třída kterou jsi už vytvořil/a). Parametr `pozice` rovnou nastav na `'Reditel'`.
 
@@ -62,7 +62,7 @@ assert reditel.pozice == 'Reditel'
 assert isinstance(reditel.oblibene_zvire, Zvire)
 ```
 
-## Třída `Zoo`
+## Třída `Zoo` 🏡
 
 Třída `Zoo` bude mít 5 atributů:
 
@@ -87,7 +87,7 @@ print('Celková váha zvířat v ZOO:', zoo.vaha_vsech_zvirat_v_zoo())
 print('Měsíční náklady na zaměstnance:', zoo.mesicni_naklady_na_zamestnance())
 ```
 
-## Asserty pro vlastní kontrolu
+## Asserty pro vlastní kontrolu ✔️
 
 Následující asserty můžeš použít pro vlastní kontrolu, klidně si vytvoř i nějaké vlastní (nemusíš).
 
