@@ -70,7 +70,7 @@ class ValuablePackage(Package):
         return cena_ze_tridy_package + pet_procent
 
 
-balik1 = ValuablePackage ("Vinohradská 15", 100, "nedoručen", "300 Kč")
+balik1 = ValuablePackage ("Vinohradská 15", 100, "nedoručen", 300)
 print(balik1.delivery_price())
 
 
