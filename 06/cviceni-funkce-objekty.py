@@ -50,7 +50,14 @@ package_list = [package_1, package_2, package_3]
 # Vyber funkci, která je podle tebe nejvhodnější pro zajištění bezpečného čtení atributu value. Můžeš použít funkci isinstance(), hasattr() i getattr(). Přičti hodnotu balíku k proměnné total_value, aniž by program skončil chybou u objektu package_2.
 # Na konci programu vypiš, jaká je celková hodnota balíků v autě.
 
-# TODO
+# celková hodnota balíků v autě
+total_value = 0
+
+for one in package_list:
+    if hasattr(one, 'value'):
+        total_value += one.value
+
+print(f'Celková hodnota balíků je {total_value},- Kč.')
 
 # 2. Celková hodnota balíků podruhé
 # Vedení společnosti si uvědomilo, že do hodnoty balíků v autě by se neměly započítávat balíky,
@@ -60,7 +67,18 @@ package_list = [package_1, package_2, package_3]
 # Uprav cyklus, aby započítal hodnotu pouze těch balíků, které jsou ve stavu nedoručen.
 # Je třeba pro čtení použít některou z funkcí isinstance(), hasattr() nebo getattr().
 
-# TODO
+# je třeba jeden z balíků doručit
+package_1.deliver()
+
+# celková hodnota balíků v autě + rozšířit předchozí podmínku
+total_value = 0
+
+for one in package_list:
+    if hasattr(one, 'value') and one.state == "nedoručen":
+        total_value += one.value
+
+print(f'Celková hodnota nedorucenych balíků je {total_value},- Kč.')
+
 
 # 3. Vypravěči
 # Nyní se vrátíme k práci pro nakladatelství, pro které jsme již připravili třídy Item, Book a AudioBook.
@@ -116,7 +134,9 @@ item_3 = AudioBook("Odysseus", 389, 13.7, "Lukáš Hlavica")
 all_items = [item_1, item_2, item_3]
 
 
-# TODO
+for one in all_items:
+    if hasattr (one, 'narrator') and one.narrator == favourite_narrator:
+        print(one.title)
 
 ###### PROVAZANI OBJEKTU ######
 
@@ -130,4 +150,68 @@ all_items = [item_1, item_2, item_3]
 # Přidej třídě Package metodu send_message(), která odešle zprávu s textem:
 # "Dnes budeme doručovat váš balík. V případě potřeby kontaktujte řidiče na čísle: " Na konec zprávy doplň telefonní číslo.
 
-# TODO
+from dataclasses import dataclass
+@dataclass
+class Driver:
+    name: str
+    phone_number: str
+
+@dataclass
+class Package:
+    address: str
+    weight: float
+    state: str = 'nedoručen'
+    driver: Driver = None
+
+    def __str__(self):
+        return f'Balík na adresu {self.address}, má hmotnost {self.weight} a je ve stavu {self.state}.'
+
+    def delivery_price(self):
+        if self.weight < 10:
+            price = 129
+        elif self.weight >= 10 and self.weight < 20:
+            price = 159
+        else:
+            price = 359
+        return price
+
+    def deliver(self):
+        if self.state == 'doručen':
+            return f'Balík byl již doručen.'
+        else:
+            self.state = 'doručen'
+            return f'Doručení uloženo.'
+
+    def send_message(self):
+        if self.driver is not None:
+            message = f"Dnes budeme doručovat váš balík. V případě potřeby kontaktujte řidiče na čísle: {self.driver.phone_number}"
+            print(f"Odesíláme SMS: {message}")
+
+class ValuablePackage(Package):
+    def __init__(self, address, weight, value, state='nedoručen', driver=None):
+        super().__init__(address, weight, state, driver)
+        self.value = value
+
+    def __str__(self):
+        return super().__str__() + f' Balík má hodnotu {self.value} Kč.'
+
+# Příklad použití
+driver_1 = Driver("Jana Nováková", "+420 123 456 789")
+
+
+package_1 = ValuablePackage("Grimmauldovo náměstí 11", 1.9, 5000, "nedoručen", driver_1)
+package_2 = Package("Godrikův důl 47", 1.9, "nedoručen")
+package_3 = ValuablePackage("Vydrník svatého Drába 13", 1.9, 5500, "nedoručeno", driver_1)
+package_list = [package_1, package_2, package_3]
+
+package_1.send_message()
+
+# Zbytek původního kódu pro výpočet celkové hodnoty balíků
+
+total_value = 0
+
+for one in package_list:
+    if hasattr(one, 'value') and one.state == "nedoručen":
+        total_value += one.value
+
+print(f'Celková hodnota balíků je {total_value},- Kč.')
