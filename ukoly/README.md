@@ -2,6 +2,13 @@
 
 ## Podrobně krok za krokem
 
+
+<details>
+  <summary>0. Instalace gitu</summary>
+
+  Jdi na <https://czechitas-podklady.cz/git-instalace/> a postupuj podle sveho operacniho systemu.
+</details>
+
 <details>
   <summary>1. Založení účtu na Githubu (bylo v požadavcích kurzu, pokud nemáš, založ si teď)</summary>
 
