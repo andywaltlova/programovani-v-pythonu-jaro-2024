@@ -7,6 +7,8 @@
   <summary>0. Instalace gitu</summary>
 
   Jdi na <https://czechitas-podklady.cz/git-instalace/> a postupuj podle sveho operacniho systemu.
+
+  Vice o gitu samotnem napriklad [zde](https://kodim.cz/czechitas/daweb/zaklady-gitu/uvod-do-gitu/system-git).
 </details>
 
 <details>
