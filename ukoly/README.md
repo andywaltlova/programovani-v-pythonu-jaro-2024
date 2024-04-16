@@ -9,6 +9,13 @@
   Jdi na <https://czechitas-podklady.cz/git-instalace/> a postupuj podle sveho operacniho systemu.
 
   Vice o gitu samotnem napriklad [zde](https://kodim.cz/czechitas/daweb/zaklady-gitu/uvod-do-gitu/system-git).
+
+  Pokud by po vas VS Code chtel nastaveni jmena a emailu pro git, zkopirujte nasledujici prikazy do vaseho terminalu(Terminal -> New Terminal), **pouzijte vase jmeno a vas email**
+
+  ```
+  git config --global user.name "John Doe"
+  git config --global user.email johndoe@example.com
+  ```
 </details>
 
 <details>
