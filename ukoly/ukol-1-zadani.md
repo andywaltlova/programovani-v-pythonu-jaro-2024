@@ -56,7 +56,7 @@ Tato třída bude dědit od třídy `Zamestnanec`, jediné co bude mít navíc j
 
 ```py
 # Priklad vytvoreni objektu (klidne zkopiruj)
-zvire = Zvire()
+zvire = Zvire('Adolf', 'Tarantule Velká', 0.1)
 reditel = Reditel(jmeno='Karel', rocni_plat=800_000, oblibene_zvire=zvire)
 assert reditel.pozice == 'Reditel'
 assert isinstance(reditel.oblibene_zvire, Zvire)
