@@ -4,7 +4,7 @@ Tvým úkolem bude vytvořit 4 třídy, které budou dohromady tvořit zoologick
 
 ## Třída `Zvire` 🦁 🐼 🐍
 
-Tato třída bude obsahovat atributy `jmeno:str`, `druh:str` a `vaha:int`. Všechny parametry jsou povinné a budou se nastavovat v metodě `__init__()`
+Tato třída bude obsahovat atributy `jmeno:str`, `druh:str` a `vaha:float`. Všechny parametry jsou povinné a budou se nastavovat v metodě `__init__()`
 
 Dále přidej třídě `Zvire`:
 
@@ -57,7 +57,7 @@ Tato třída bude dědit od třídy `Zamestnanec`, jediné co bude mít navíc j
 ```py
 # Priklad vytvoreni objektu (klidne zkopiruj)
 zvire = Zvire('Adolf', 'Tarantule Velká', 0.1)
-reditel = Reditel(jmeno='Karel', rocni_plat=800_000, oblibene_zvire=zvire)
+reditel = Reditel(cele_jmeno='Karel Veliky', rocni_plat=800_000, oblibene_zvire=zvire)
 assert reditel.pozice == 'Reditel'
 assert isinstance(reditel.oblibene_zvire, Zvire)
 ```
@@ -66,11 +66,11 @@ assert isinstance(reditel.oblibene_zvire, Zvire)
 
 Třída `Zoo` bude mít 5 atributů:
 
-* `jmeno:str`
+* `nazev:str`
 * `adresa:str`
 * `reditel: Reditel` - objekt typu `Reditel`
-* `zamestnanci: List[Zamestnanec]` - list objektů typu `Zamestnanec` (naši vytvoření zaměstnanci)
-* `zvirata: List[Zvire]` - list objektů typu `Zvire` (naše vytvořená zvířata)
+* `zamestnanci: list[Zamestnanec]` - list objektů typu `Zamestnanec` (naši vytvoření zaměstnanci)
+* `zvirata: list[Zvire]` - list objektů typu `Zvire` (naše vytvořená zvířata)
 
 a dvě metody:
 
