@@ -1,0 +1,37 @@
+[
+    {
+        "jmeno": "Brunner Radek",
+        "rocnik": 1974,
+        "casy": {
+            "oficialni": "3:00:09",
+            "1.kolo": "4:16",
+            "2.kolo": "2:55:53"
+        }
+    },
+    {
+        "jmeno": "Urban Jaroslav",
+        "rocnik": 1984,
+        "casy": {
+            "oficialni": "3:11:44",
+            "1.kolo": "4:11",
+            "2.kolo": "3:07:33"
+        }
+    },
+    {
+        "jmeno": "Andrle Jakub",
+        "rocnik": 1982,
+        "casy": {
+            "oficialni": "3:12:21",
+            "1.kolo": "4:18",
+            "2.kolo": "3:08:03"
+        }
+    },
+    {
+        "jmeno": "Michal Šmídl",
+        "rocnik": 1989,
+        "casy": {
+            "oficialni": "DNF",
+            "1.kolo": "5:21"
+        }
+    }
+]
