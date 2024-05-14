@@ -1,0 +1,3 @@
+Nakoupit na večeři,2
+Nakrmit kočku,1
+Přečíst si o vlastních výjimkách v Pythonu,2
