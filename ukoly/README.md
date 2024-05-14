@@ -1,5 +1,10 @@
 # Návod k odevzdávání úkolů
 
+## Zadání
+
+- [ukol 1](./ukol-1-zadani.md)
+- [ukol 2](./ukol-2-zadani.md)
+
 ## Podrobně krok za krokem
 
 
