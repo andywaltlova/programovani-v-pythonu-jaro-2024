@@ -6,17 +6,25 @@ Tvojou úlohou bude napísať program, ktorý získa pomocou API 10 náhodných 
 
 Keďže sme programátori, nebudeme náhodné fakty hľadať náhodne po internete a kopírovať ich do programu. Použijeme API, konkrétne endpoint [https://cat-fact.herokuapp.com/facts](https://cat-fact.herokuapp.com/facts). Ten vám ako odpoveď na request (dotaz) vráti objekt vo formáte JSON, v ktorom sa nachádza kľúč `text`, v ktorom sa nachádza náhodný fakt.
 
+*Pozn. Nehledejte za tím něco extra složité, začněte stejně jako v [lekci na API a JSON na kodim](https://kodim.cz/czechitas/uvod-do-progr-2/uvod-do-programovani-2/json/json-api) :)*
+
 ## Filtrovanie faktov
 
 Získané dáta obsahujú veľa ďalších informácií, ktoré sú pre nás zbytočné. Musíme si teda získať iba hodnoty, ktoré sú priradené kľúču `text`. Tieto hodnoty sú typu reťazec (string).
+
+*Pozn. Pokud nevíš kde začít, začni s [lekcí na práci se slovníky na kodim](https://kodim.cz/czechitas/uvod-do-progr-2/uvod-do-programovani-2/slovniky/slovniky).*
 
 ## Vytvorenie zoznamu faktov
 
 Po tom, ako vyfiltrujeme fakty, chceme si z nich vytvoriť zoznam, ktorý bude obsahovať všetky získané fakty. K reťazcom obsahujúcim fakty pridáme ešte ich očíslovanie, aby sme si boli istí, že ich máme presne 10.
 
+*Pozn. Pokud nevíš kde začít, mrkni do minulého domácího úkolu jak si vytvářel/a seznamy zamestnancu a zvirat.*
+
 ## Vytvorenie súboru
 
 Po vytvorení zoznamu nám ostáva už len posledný krok. Program vytvorí súbor `kocici_fakta.json`, do ktorého uloží náš zoznam s faktami. Aby sa nám zoznam lepšie čítal, pridáme do neho odsadenie (indent).
+
+*Pozn. Pokud nevíš kde začít, začni s [lekcí na práci se soubory na kodim](https://kodim.cz/czechitas/uvod-do-progr-2/uvod-do-programovani-2/soubory/cteni-souboru).*
 
 ## Finálny súbor
 
