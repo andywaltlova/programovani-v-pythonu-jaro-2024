@@ -1,4 +1,4 @@
-# Úkol 2
+# Úkol 2 🐱 🐈
 
 Tvojou úlohou bude napísať program, ktorý získa pomocou API 10 náhodných faktov o mačkách a uloží ich do súboru vo formáte JSON.
 
