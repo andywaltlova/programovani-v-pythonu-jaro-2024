@@ -39,7 +39,7 @@ Obsahu súboru by mal po prebehnutí programu vyzerať takto:
 
 Jednotlivé fakty budú viac ako pravdepodobné iné (predsa len ide o náhodné fakty), ale vyzerať by to malo približne takto.
 
-### Dotaz ešte raz
+## Dotaz ešte raz
 
 Náhodných faktov o mačkách nie je nikdy dosť. Preto si vypýtame ešte nejaké navyše. Keďže sme nedočkaví, nastavíme si `timeout` na 0.001, nech ich máme čo najrýchlejšie. Tu však môže nastať problém, že nám endpoint nestihne do tej doby odpovedať. Vtedy by nám spadol program s výnimkou balíčku `requests`, ktorá sa volá `Timeout`. Ako vieme, vyhodenie výnimky by nám zhodilo program, čo úplne nechceme. Preto napíšeme túto časť kódu tak, aby nám zachytil výnimku a namiesto nej len vypísal, že sme príliš nedočkaví.
 
