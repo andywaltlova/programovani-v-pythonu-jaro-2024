@@ -6,6 +6,8 @@ Tvojou úlohou bude napísať program, ktorý získa pomocou API 10 náhodných 
 
 Keďže sme programátori, nebudeme náhodné fakty hľadať náhodne po internete a kopírovať ich do programu. Použijeme API, konkrétne endpoint [https://cat-fact.herokuapp.com/facts](https://cat-fact.herokuapp.com/facts). Ten vám ako odpoveď na request (dotaz) vráti objekt vo formáte JSON, v ktorom sa nachádza kľúč `text`, v ktorom sa nachádza náhodný fakt.
 
+Dokumentace k endpointu se nachází na https://alexwohlbruck.github.io/cat-facts/docs/endpoints/facts.html, pomocí informací tam uvedených získej alespoň 10 faktů. Je to velice podobné tomu, jako když jsme na lekci získavali jména která slaví svátek pro daný den.
+
 *Pozn. Nehledejte za tím něco extra složité, začněte stejně jako v [lekci na API a JSON na kodim](https://kodim.cz/czechitas/uvod-do-progr-2/uvod-do-programovani-2/json/json-api) :)*
 
 ## Filtrovanie faktov
